@@ -13,13 +13,14 @@ I want to be able to so sort a list of books
 # - None
 
 # Examples:
-def test_list_of_books_with_one_book():
+# INPUT -> OUTPUT
 
-    assert list_of_books(['ABC']) == ['ABC']
+ #  list_of_books(['ABC']) #=> ['ABC']
 
-def test_list_of_books_with_three_books():
-    assert list_of_books(['Maximum Achievement', 'ABC','Smarter Investments']) == ['ABC', 'Maximum Achievement', 'Smarter Investments']
 
+# list_of_books(['Maximum Achievement', 'ABC','Smarter Investments']) #=> ['ABC', 'Maximum Achievement', 'Smarter Investments']
+
+# list_of_books([]) #=> 'There were no books to sort!'
 
 ```
 
