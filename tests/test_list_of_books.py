@@ -11,3 +11,9 @@ def test_list_of_books_returns_list_with_three_books():
     expected = ['ABC', 'Maximum Achievement', 'Smarter Investments']
 
     assert actual == expected
+
+def  test_list_of_books_returns_empty_list_message_when_empty_list_called():
+    actual =  list_of_books([])
+    expected = 'There were no books to sort!'
+
+    assert actual == expected    
